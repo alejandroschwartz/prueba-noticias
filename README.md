@@ -38,4 +38,8 @@ Corre en el puerto [http://localhost:3000](http://localhost:3000)
 
 - Para el formulario, quite el background rojo del título, asi lo que más resalta seria el el mismo botón de registrar y lo delimite.
 
+- Verfique las mejoras de lighthouse: Para tener el mejor rendimiento tanto para el usuario como para el posicionamiento SEO en Google
 
+![](https://res.cloudinary.com/dhdhpvhkg/image/upload/c_scale,q_80,w_1080/v1722978636/examen/imagen-lighthouse.webp)
+
+- Cambié el título para poder incluirlo en un h1 y h2, lo que aumenta la relevancia del contenido para búsquedas específicas. Puse mas margenes entre las distintas secciones. Un alert para delimitar "¡Últimas Oportunidades en Oil Profit!", asi llama mas la atención y lo agrupe mas con el formulario de inscripción para darle un sentido de union. 

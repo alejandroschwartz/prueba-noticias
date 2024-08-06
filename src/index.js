@@ -36,6 +36,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    // Calculo de la fecha actual 
+    let fechaActual = new Date();
+    let opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+    let fechaFormateada = new Intl.DateTimeFormat('es-ES', opciones).format(fechaActual);
+    document.getElementById('fechaActual').textContent = fechaFormateada;
+
+    // Función para cerrar la barra inferior
+    window.barraInferior = function() {
+        document.getElementById('barraInferior').style.display = 'none';
+    };
+
     const input = document.querySelector("#phone");
     const iti = intlTelInput(input, {
         initialCountry: "auto",
