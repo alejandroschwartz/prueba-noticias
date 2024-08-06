@@ -2,11 +2,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    /* background: url('../assets/header-bg.jpg') no-repeat center center;
-    background-size: cover; */
-}
-
 main {
     padding: 0px;
 }
@@ -18,6 +13,46 @@ main {
 .imagen-circular {
     width: 80px;
     height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iti {
+    width: 100%;
+}
+
+.toast-card {
+    max-width: 280px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #fff;
+    color: #000;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 9999;
+    transition: transform 0.5s, opacity 0.5s;
+
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.toast-hide {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.toast-imagen {
+    min-width: 60px;
+}
+
+.toast-imagen-circular {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
 }
