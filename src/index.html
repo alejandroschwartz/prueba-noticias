@@ -203,62 +203,13 @@
                 <table class="mt-4 table border">
                     <thead>
                         <tr>
-                            <th class="bg-light" scope="col">Nombre</th>
-                            <th class="bg-light" scope="col">Ganancia</th>
-                            <th class="bg-light" scope="col">Ciudad</th>
+                            <th class="bg-light col-4" scope="col">Nombre</th>
+                            <th class="bg-light col-4" scope="col">Ganancia</th>
+                            <th class="bg-light col-4" scope="col">Ciudad</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Josefa</td>
-                            <td class="text-success">₡ 1.085.485</td>
-                            <td>Alajuela</td>
-                        </tr>
-                        <tr>
-                            <td>Ana</td>
-                            <td class="text-success">₡ 457.926</td>
-                            <td>Cartago</td>
-                        </tr>
-                        <tr>
-                            <td>Carmen</td>
-                            <td class="text-success">₡ 431.756</td>
-                            <td>Heredia</td>
-                        </tr>
-                        <tr>
-                            <td>Rosa</td>
-                            <td class="text-success">₡ 139.223</td>
-                            <td>Guanacaste</td>
-                        </tr>
-                        <tr>
-                            <td>Laura</td>
-                            <td class="text-success">₡ 585.832</td>
-                            <td>Puntarenas</td>
-                        </tr>
-                        <tr>
-                            <td>Marta</td>
-                            <td class="text-success">₡ 819.391</td>
-                            <td>Limón</td>
-                        </tr>
-                        <tr>
-                            <td>Flor</td>
-                            <td class="text-success">₡ 845.093</td>
-                            <td>San Carlos</td>
-                        </tr>
-                        <tr>
-                            <td>Andrea</td>
-                            <td class="text-success">₡ 1.311.432</td>
-                            <td>Puntarenas</td>
-                        </tr>
-                        <tr>
-                            <td>Adriana</td>
-                            <td class="text-success">₡ 753.113</td>
-                            <td>Guanacaste</td>
-                        </tr>
-                        <tr>
-                            <td>Olga</td>
-                            <td class="text-success">₡ 470.150</td>
-                            <td>Limón</td>
-                        </tr>
+                        <!-- Las filas lo genero con JavaScript en el index.js -->
                     </tbody>
                 </table>
             </section>
@@ -274,7 +225,7 @@
                     </p>
                     <p class="h5">¡Apúrate y regístrate ahora para asegurar tu lugar!</p>
                 </div>
-                <div class="col-12 col-lg-8 mx-auto border rounded p-5">
+                <div class="col-12 col-lg-8 mx-auto border rounded p-4">
                     <h2 class="text-center fw-bold">Inscripción gratuita</h2>
                     <form>
                         <div class="form-group mt-3">
@@ -294,7 +245,7 @@
                             <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de telefono">
                         </div>
                         <div class="container-fluid text-center">
-                            <button type="submit" class="fw-bold btn btn-success px-5 mt-3 mb-2">
+                            <button type="submit" class="fw-bold btn btn-success btn-pulsing px-5 my-4">
                                 ¡REGISTRARME AHORA!
                             </button>
                             <p><small>* Monto mínimo de inversión ₡ 135.000</small></p>
@@ -411,7 +362,7 @@
                         width="160"
                     />
                 </div>
-                <p class="m-0"><small>¡<strong>José López</strong> acaba de generar ₡2.940.283 de un depósito de ₡135.000!</small></p>
+                <p class="m-0"><small>¡<strong>José López</strong> acaba de generar <span class="text-success">₡2.940.283</span> de un depósito de <span class="text-success">₡135.000!</span></small></p>
             </div>
         </div>
         <div id="barraInferior" class="fixed-bottom bg-white border-top border-secondary p-3">
